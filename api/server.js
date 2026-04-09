@@ -1,11 +1,13 @@
-// api/server.js
 const jsonServer = require('json-server');
+const path = require('path'); // Add this
 const server = jsonServer.create();
-const router = jsonServer.router('db.json');
+
+// Use path.join to ensure the file is found in the lambda environment
+const router = jsonServer.router(path.join(__dirname, '../db.json')); 
+
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
-// Add a rewrite to handle /api/* routes
 server.use(jsonServer.rewriter({
   '/api/*': '/$1'
 }));
