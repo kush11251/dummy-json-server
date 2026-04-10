@@ -8,7 +8,7 @@
         {
             "version": "1.0",
             "module": "Search",
-            "url": "https://angular-test-2-ten.vercel.app/"
+            "url": "https://search-poc-nine.vercel.app/"
         }
     ],
     "modules": {
