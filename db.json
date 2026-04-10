@@ -1,9 +1,30 @@
 {
-  "posts": [
-    { "version": "1.0", "module": "HL", "url": "https://angular-test-1-psi.vercel.app/" },
-    { "version": "1.0", "module": "Search", "url": "https://angular-test-2-ten.vercel.app/" }
-  ],
-  "users": [
-    { "version": 1, "name": "Gemini" }
-  ]
+    "posts": [
+        {
+            "version": "1.0",
+            "module": "HL",
+            "url": "https://angular-test-1-psi.vercel.app/"
+        },
+        {
+            "version": "1.0",
+            "module": "Search",
+            "url": "https://angular-test-2-ten.vercel.app/"
+        }
+    ],
+    "modules": {
+        "hl": {
+            "url": "https://angular-test-1-psi.vercel.app/",
+            "version": "0.0.0"
+        },
+        "search": {
+            "url": "https://angular-test-2-ten.vercel.app/",
+            "version": "0.0.0"
+        }
+    },
+    "users": [
+        {
+            "version": 1,
+            "name": "Gemini"
+        }
+    ]
 }
