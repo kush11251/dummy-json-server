@@ -14,7 +14,7 @@
     "modules": {
         "modules": {
             "hl": {
-                "url": "https://angular-test-1-psi.vercel.app/",
+                "url": "https://dummy-homeloan-emp-dtls.vercel.app/",
                 "version": "0.0.1"
             },
             "search": {
